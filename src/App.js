@@ -25,7 +25,7 @@ handlechange=(e)=>{
     const filteredmostar = monstar.filter((monstar)=>monstar.name.toLowerCase().includes(searchField.toLowerCase()));
     return(
       <div className="App">
-        <h1>Monster Grid</h1>
+//         <h1>Monster Grid</h1>
         <Searchbox
         placeholder='search moster'
         handlechange={this.handlechange}
